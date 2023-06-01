@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f8f8;
+}
+.text {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  width: 610px;
+  margin: auto;
+  text-align: center;
+}
+p {
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.p {
+  text-align: center;
+}
+.p::after {
+  content: "";
+  width: 40px;
+  border: solid 1px hsla(29, 26%, 72%, 0.781);
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+.p::before {
+  content: "";
+  width: 40px;
+  border: solid 1px hsla(29, 26%, 72%, 0.781);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.register {
+  max-width: 300px;
+  margin: auto;
+  color: dimgray;
+}
+.facebook {
+  background-color: #3a2aa5;
+  padding: 5px 20px;
+  color: dimgray;
+  width: 300px;
+}
+.registerbtn {
+  background-color: darkgreen;
+  display: block;
+  margin-top: 20px;
+  padding: 5px 20px;
+  color: dimgray;
+  width: 300px;
+}
+input {
+  width: 300px;
+  padding: 5px 20px;
+}
